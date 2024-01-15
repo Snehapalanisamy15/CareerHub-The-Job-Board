@@ -13,10 +13,10 @@ namespace CareerHub__The_Job_Board.DAO
         void InsertCompany(Company company);
         void InsertApplicant(Applicant applicant);
         void InsertJobApplication(JobApplication application);
-        List<JobListing> GetJobListings();
+        
         List<Company> GetCompanies();
         List<Applicant> GetApplicants();
-        List<JobApplication> GetApplicationsForJob(int jobID);
+        List<JobApplication> GetApplicationsForJob();
     }
 }
 
